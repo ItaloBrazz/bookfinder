@@ -24,4 +24,4 @@ Aplicação web para explorar um catálogo de livros com filtros avançados.
 https://bookfinder-app.vercel.app
 
 ## Autor
-[Seu Nome]
+Ítalo Braz
