@@ -1,0 +1,115 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonte literária */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;600;700&display=swap');
+
+/* Estilos base */
+@layer base {
+  :root {
+    --color-primary: 59 130 246;   /* blue-500 */
+    --color-secondary: 245 158 11; /* amber-400 */
+    --color-accent: 139 92 246;    /* purple-500 */
+  }
+
+  html {
+    @apply scroll-smooth;
+    font-family: 'Open Sans', system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-amber-50 text-gray-800 antialiased;
+    background-image: 
+      radial-gradient(#e5e7eb 0.5px, transparent 0.5px),
+      radial-gradient(#e5e7eb 0.5px, #fef3c7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Merriweather', serif;
+    @apply font-bold text-gray-900;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl mb-6;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl mb-5 border-b border-amber-200 pb-2;
+  }
+
+  /* Efeito de sublinhado criativo para links */
+  a {
+    @apply relative text-blue-600 hover:text-blue-800 transition-colors;
+  }
+
+  a:hover::after {
+    @apply absolute w-full left-0 -bottom-0.5 h-0.5 bg-amber-400;
+    content: '';
+    animation: underlineGrow 0.3s ease-out forwards;
+  }
+}
+
+/* Componentes personalizados */
+@layer components {
+  .book-card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden 
+           transition-all duration-300 hover:shadow-xl 
+           border border-amber-100 hover:border-amber-200;
+  }
+
+  .btn-primary {
+    @apply px-6 py-2 rounded-full bg-blue-600 text-white 
+           font-medium hover:bg-blue-700 transition-all 
+           shadow-sm hover:shadow-md active:scale-95;
+  }
+
+  .filter-panel {
+    @apply bg-white/80 backdrop-blur-sm p-6 rounded-xl 
+           shadow-sm border border-white;
+  }
+}
+
+/* Animações */
+@layer utilities {
+  @keyframes underlineGrow {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  .animate-page-turn {
+    animation: pageTurn 1.5s ease-in-out infinite;
+  }
+
+  @keyframes pageTurn {
+    0%, 100% { transform: rotateY(0deg); }
+    50% { transform: rotateY(10deg); }
+  }
+}
+
+/* Estilo da scrollbar temática */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-amber-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-amber-400 rounded-full hover:bg-amber-500;
+}
+
+/* Efeito de marca-texto para títulos */
+.highlight {
+  @apply relative inline-block;
+}
+
+.highlight::after {
+  @apply absolute -z-10 bottom-0 left-0 w-full h-2 bg-amber-300/60;
+  content: '';
+  transform: skew(-15deg);
+}

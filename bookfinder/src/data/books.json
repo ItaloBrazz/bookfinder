@@ -1,0 +1,207 @@
+[
+    {
+      "id": "1",
+      "title": "O Senhor dos Anéis",
+      "author": "J.R.R. Tolkien",
+      "description": "Uma épica aventura na Terra Média...",
+      "genre": "Fantasia",
+      "rating": 4.8,
+      "publishedYear": 1954,
+      "coverImage": "/images/lotr.jpg",
+      "pages": 1178,
+      "language": "Português",
+      "price": 89.90,
+      "reviews": [
+        {
+          "user": "João Silva",
+          "comment": "Obra prima da literatura fantástica!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "1984",
+      "author": "George Orwell",
+      "description": "Um clássico distópico sobre vigilância e controle...",
+      "genre": "Distopia",
+      "rating": 4.6,
+      "publishedYear": 1949,
+      "coverImage": "/images/1984.jpg",
+      "pages": 328,
+      "language": "Português",
+      "price": 45.50,
+      "reviews": [
+        {
+          "user": "Maria Souza",
+          "comment": "Assustadoramente atual.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "A Biblioteca da Meia-Noite",
+      "author": "Matt Haig",
+      "description": "Um romance sobre arrependimentos e segundas chances, onde a protagonista explora vidas alternativas que poderia ter vivido.",
+      "genre": "Ficção Contemporânea",
+      "rating": 4.7,
+      "publishedYear": 2020,
+      "coverImage": "/images/midnight-library.jpg",
+      "pages": 304,
+      "language": "Português",
+      "price": 42.90,
+      "reviews": [
+        {
+          "user": "Ana Claudia",
+          "comment": "Me fez refletir profundamente sobre minhas escolhas!",
+          "rating": 5
+        },
+        {
+          "user": "Carlos Eduardo",
+          "comment": "Livro transformador, mas com um ritmo lento no início.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Cem Anos de Solidão",
+      "author": "Gabriel García Márquez",
+      "description": "A saga da família Buendía em Macondo, obra-prima do realismo mágico.",
+      "genre": "Realismo Mágico",
+      "rating": 4.9,
+      "publishedYear": 1967,
+      "coverImage": "/images/cem-anos.jpg",
+      "pages": 417,
+      "language": "Português",
+      "price": 59.90,
+      "reviews": [
+        {
+          "user": "Lúcia Fernandes",
+          "comment": "Uma jornada literária inesquecível!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Dom Quixote",
+      "author": "Miguel de Cervantes",
+      "description": "As aventuras do cavaleiro mais famoso da literatura.",
+      "genre": "Clássico",
+      "rating": 4.7,
+      "publishedYear": 1605,
+      "coverImage": "/images/dom-quixote.jpg",
+      "pages": 863,
+      "language": "Português",
+      "price": 69.90,
+      "reviews": [
+        {
+          "user": "Mariana Silva",
+          "comment": "Uma obra rica em humor e reflexão.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "O Pequeno Príncipe",
+      "author": "Antoine de Saint-Exupéry",
+      "description": "Um conto filosófico sobre amizade e amor.",
+      "genre": "Infantil",
+      "rating": 4.8,
+      "publishedYear": 1943,
+      "coverImage": "/images/pequeno-principe.jpg",
+      "pages": 96,
+      "language": "Português",
+      "price": 29.90,
+      "reviews": [
+        {
+          "user": "Rafaela Gomes",
+          "comment": "Uma obra simples, mas profunda.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Crime e Castigo",
+      "author": "Fiódor Dostoiévski",
+      "description": "Um estudo psicológico sobre culpa e redenção.",
+      "genre": "Ficção",
+      "rating": 2,
+      "publishedYear": 1866,
+      "coverImage": "/images/crime-e-castigo.jpg",
+      "pages": 671,
+      "language": "Português",
+      "price": 55.90,
+      "reviews": [
+        {
+          "user": "João Mendes",
+          "comment": "Uma análise profunda da mente humana.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "O Hobbit",
+      "author": "J.R.R. Tolkien",
+      "description": "A jornada de Bilbo Bolseiro em busca de um tesouro guardado por um dragão.",
+      "genre": "Fantasia",
+      "rating": 4.8,
+      "publishedYear": 1937,
+      "coverImage": "/images/o-hobbit.jpg",
+      "pages": 310,
+      "language": "Português",
+      "price": 49.90,
+      "reviews": [
+        {
+          "user": "Gustavo Nunes",
+          "comment": "Uma aventura cativante do começo ao fim!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "O Nome do Vento",
+      "author": "Patrick Rothfuss",
+      "description": "As memórias de um lendário mago e músico em um mundo de fantasia.",
+      "genre": "Fantasia",
+      "rating": 4.9,
+      "publishedYear": 2007,
+      "coverImage": "/images/o-nome-do-vento.jpg",
+      "pages": 662,
+      "language": "Português",
+      "price": 79.90,
+      "reviews": [
+        {
+          "user": "Roberta Lima",
+          "comment": "Uma narrativa envolvente e personagens marcantes.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Harry Potter e a Pedra Filosofal",
+      "author": "J.K. Rowling",
+      "description": "O início da jornada de Harry Potter no mundo da magia.",
+      "genre": "Fantasia",
+      "rating": 4.7,
+      "publishedYear": 1997,
+      "coverImage": "/images/harry-potter1.jpg",
+      "pages": 223,
+      "language": "Português",
+      "price": 39.90,
+      "reviews": [
+        {
+          "user": "Tiago Oliveira",
+          "comment": "Um começo mágico para uma saga inesquecível.",
+          "rating": 5
+        }
+      ]
+    }
+  ]
