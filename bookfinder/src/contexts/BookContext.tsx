@@ -9,10 +9,10 @@ interface BookContextType {
   searchTerm: string
   filters: {
     genre: string
-    rating: number
+    maxRating: number // Alterado de 'rating' para 'maxRating'
   }
   setSearchTerm: (term: string) => void
-  setFilters: (filters: { genre: string; rating: number }) => void
+  setFilters: (filters: { genre: string; maxRating: number }) => void // Atualizado aqui também
 }
 
 const BookContext = createContext<BookContextType | undefined>(undefined)
@@ -24,7 +24,7 @@ export const BookProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [searchTerm, setSearchTerm] = useState('')
   const [filters, setFilters] = useState({
     genre: 'all',
-    rating: 0
+    maxRating: 5 // Valor inicial 5 (mostra todos os livros)
   })
 
   useEffect(() => {
@@ -54,9 +54,9 @@ export const BookProvider: React.FC<{ children: React.ReactNode }> = ({ children
       result = result.filter(book => book.genre === filters.genre)
     }
     
-    // Aplicar filtro de avaliação
-    if (filters.rating > 0) {
-      result = result.filter(book => book.rating >= filters.rating)
+    // Aplicar filtro de avaliação MÁXIMA (alterado)
+    if (filters.maxRating < 5) { // Se não for 5 (valor máximo)
+      result = result.filter(book => book.rating <= filters.maxRating)
     }
     
     setFilteredBooks(result)

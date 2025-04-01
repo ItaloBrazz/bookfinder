@@ -21,21 +21,26 @@
     },
     {
       "id": "2",
-      "title": "1984",
-      "author": "George Orwell",
-      "description": "Um clássico distópico sobre vigilância e controle...",
-      "genre": "Distopia",
-      "rating": 4.6,
-      "publishedYear": 1949,
-      "coverImage": "https://m.media-amazon.com/images/I/61t0bwt1s3L._AC_UF1000,1000_QL80_.jpg",
-      "pages": 328,
+      "title": "Jogador Nº 1",
+      "author": "Ernest Cline",
+      "description": "Num futuro distópico, o jovem Wade Watts embarca numa caça ao tesouro virtual no OASIS, um universo de realidade virtual que substituiu a realidade.",
+      "genre": "Ficção Científica",
+      "rating": 4.5,
+      "publishedYear": 2011,
+      "coverImage": "https://m.media-amazon.com/images/I/917GI-fesVL._AC_UF1000,1000_QL80_.jpg",
+      "pages": 464,
       "language": "Português",
-      "price": 45.50,
+      "price": 49.90,
       "reviews": [
         {
-          "user": "Maria Souza",
-          "comment": "Assustadoramente atual.",
+          "user": "Rodrigo Almeida",
+          "comment": "Uma aventura repleta de referências à cultura pop dos anos 80!",
           "rating": 5
+        },
+        {
+          "user": "Juliana Castro",
+          "comment": "Perfeito para quem ama videogames e ficção científica.",
+          "rating": 4
         }
       ]
     },
@@ -72,7 +77,7 @@
       "genre": "Realismo Mágico",
       "rating": 4.9,
       "publishedYear": 1967,
-      "coverImage": "/images/cem-anos.jpg",
+      "coverImage": "https://m.media-amazon.com/images/I/816Yy5v+S5L._AC_UF1000,1000_QL80_.jpg",
       "pages": 417,
       "language": "Português",
       "price": 59.90,
@@ -89,10 +94,10 @@
       "title": "Dom Quixote",
       "author": "Miguel de Cervantes",
       "description": "As aventuras do cavaleiro mais famoso da literatura.",
-      "genre": "Clássico",
+      "genre": "Literatura Clássica",
       "rating": 4.7,
       "publishedYear": 1605,
-      "coverImage": "/images/dom-quixote.jpg",
+      "coverImage": "https://m.media-amazon.com/images/I/81pdXbEIZhL._UF894,1000_QL80_.jpg",
       "pages": 863,
       "language": "Português",
       "price": 69.90,
@@ -112,7 +117,7 @@
       "genre": "Infantil",
       "rating": 4.8,
       "publishedYear": 1943,
-      "coverImage": "/images/pequeno-principe.jpg",
+      "coverImage": "https://m.media-amazon.com/images/I/81TmOZIXvzL._AC_UF1000,1000_QL80_.jpg",
       "pages": 96,
       "language": "Português",
       "price": 29.90,
@@ -132,7 +137,7 @@
       "genre": "Ficção",
       "rating": 2,
       "publishedYear": 1866,
-      "coverImage": "/images/crime-e-castigo.jpg",
+      "coverImage": "https://m.media-amazon.com/images/I/916WkSH4cGL.jpg",
       "pages": 671,
       "language": "Português",
       "price": 55.90,
@@ -152,7 +157,7 @@
       "genre": "Fantasia",
       "rating": 4.8,
       "publishedYear": 1937,
-      "coverImage": "/images/o-hobbit.jpg",
+      "coverImage": "https://m.media-amazon.com/images/I/91M9xPIf10L.jpg",
       "pages": 310,
       "language": "Português",
       "price": 49.90,
@@ -172,7 +177,7 @@
       "genre": "Fantasia",
       "rating": 4.9,
       "publishedYear": 2007,
-      "coverImage": "/images/o-nome-do-vento.jpg",
+      "coverImage": "https://m.media-amazon.com/images/I/81CGmkRG9GL.jpg",
       "pages": 662,
       "language": "Português",
       "price": 79.90,
@@ -192,7 +197,7 @@
       "genre": "Fantasia",
       "rating": 4.7,
       "publishedYear": 1997,
-      "coverImage": "/images/harry-potter1.jpg",
+      "coverImage": "https://m.media-amazon.com/images/I/61jgm6ooXzL._AC_UF1000,1000_QL80_.jpg",
       "pages": 223,
       "language": "Português",
       "price": 39.90,
@@ -200,6 +205,351 @@
         {
           "user": "Tiago Oliveira",
           "comment": "Um começo mágico para uma saga inesquecível.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "A Revolução dos Bichos",
+      "author": "George Orwell",
+      "description": "Uma sátira política sobre o poder e a corrupção através de uma fazenda de animais.",
+      "genre": "Sátira Política",
+      "rating": 4.7,
+      "publishedYear": 1945,
+      "coverImage": "https://m.media-amazon.com/images/I/91BsZhxCRjL._AC_UF1000,1000_QL80_.jpg",
+      "pages": 152,
+      "language": "Português",
+      "price": 34.90,
+      "reviews": [
+        {
+          "user": "Carlos Andrade",
+          "comment": "Uma crítica atemporal aos regimes totalitários.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "O Grande Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "Um retrato da era do jazz e do sonho americano através dos olhos do misterioso Jay Gatsby.",
+      "genre": "Literatura Clássica",
+      "rating": 4.5,
+      "publishedYear": 1925,
+      "coverImage": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UF1000,1000_QL80_.jpg",
+      "pages": 180,
+      "language": "Português",
+      "price": 42.50,
+      "reviews": [
+        {
+          "user": "Fernanda Castro",
+          "comment": "A escrita de Fitzgerald é simplesmente brilhante.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "O Sol é para Todos",
+      "author": "Harper Lee",
+      "description": "Um clássico sobre racismo e justiça no sul dos EUA, narrado pela perspectiva de uma criança.",
+      "genre": "Drama",
+      "rating": 4.8,
+      "publishedYear": 1960,
+      "coverImage": "https://m.media-amazon.com/images/I/91WKPd60P4L._AC_UF1000,1000_QL80_.jpg",
+      "pages": 281,
+      "language": "Português",
+      "price": 47.90,
+      "reviews": [
+        {
+          "user": "Ricardo Nogueira",
+          "comment": "Uma lição de humanidade e coragem.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "O Apanhador no Campo de Centeio",
+      "author": "J.D. Salinger",
+      "description": "A jornada introspectiva de Holden Caulfield em Nova York, questionando a sociedade e a transição para a vida adulta.",
+      "genre": "Literatura",
+      "rating": 4.3,
+      "publishedYear": 1951,
+      "coverImage": "https://m.media-amazon.com/images/I/91HPG31dTwL._AC_UF1000,1000_QL80_.jpg",
+      "pages": 234,
+      "language": "Português",
+      "price": 39.90,
+      "reviews": [
+        {
+          "user": "Juliana Martins",
+          "comment": "Captura perfeitamente a angústia da adolescência.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "O Retrato de Dorian Gray",
+      "author": "Oscar Wilde",
+      "description": "Sobre a vaidade, moralidade e a essência da beleza através da história de um homem cujo retrato envelhece em seu lugar.",
+      "genre": "Literatura Clássica",
+      "rating": 4.6,
+      "publishedYear": 1890,
+      "coverImage": "https://m.media-amazon.com/images/I/51REmr5NmnL._AC_UF1000,1000_QL80_.jpg",
+      "pages": 254,
+      "language": "Português",
+      "price": 37.90,
+      "reviews": [
+        {
+          "user": "Patrícia Lemos",
+          "comment": "A escrita de Wilde é tão atual quanto na época.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "O Iluminado",
+      "author": "Stephen King",
+      "description": "Terror psicológico no Hotel Overlook, onde um escritor e sua família enfrentam forças sobrenaturais.",
+      "genre": "Terror",
+      "rating": 4.7,
+      "publishedYear": 1977,
+      "coverImage": "https://m.media-amazon.com/images/I/8147kKLLvOL._AC_UF1000,1000_QL80_.jpg",
+      "pages": 447,
+      "language": "Português",
+      "price": 57.90,
+      "reviews": [
+        {
+          "user": "Marcos Vinícius",
+          "comment": "Assustador e psicologicamente perturbador.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "It: A Coisa",
+      "author": "Stephen King",
+      "description": "Terror em Derry contra um mal ancestral que retorna a cada 27 anos para aterrorizar as crianças da cidade.",
+      "genre": "Terror",
+      "rating": 4.7,
+      "publishedYear": 1986,
+      "coverImage": "https://m.media-amazon.com/images/I/91g9Dvtf+jL.jpg",
+      "pages": 1104,
+      "language": "Português",
+      "price": 79.90,
+      "reviews": [
+        {
+          "user": "Ana Beatriz",
+          "comment": "Um dos melhores livros de terror já escritos.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "O Guia do Mochileiro das Galáxias",
+      "author": "Douglas Adams",
+      "description": "Humor e ficção científica na aventura intergaláctica de Arthur Dent após a destruição da Terra.",
+      "genre": "Ficção Científica Cômica",
+      "rating": 4.6,
+      "publishedYear": 1979,
+      "coverImage": "https://m.media-amazon.com/images/I/81XSN3hA5gL._AC_UF1000,1000_QL80_.jpg",
+      "pages": 180,
+      "language": "Português",
+      "price": 44.90,
+      "reviews": [
+        {
+          "user": "Lucas Ribeiro",
+          "comment": "Divertido e absurdamente criativo!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Neuromancer",
+      "author": "William Gibson",
+      "description": "O romance que definiu o gênero cyberpunk, seguindo um hacker em um mundo de inteligência artificial e realidade virtual.",
+      "genre": "Ficção Científica",
+      "rating": 4.5,
+      "publishedYear": 1984,
+      "coverImage": "https://m.media-amazon.com/images/I/91Bx5ilP+EL._AC_UF1000,1000_QL80_.jpg",
+      "pages": 271,
+      "language": "Português",
+      "price": 49.90,
+      "reviews": [
+        {
+          "user": "Roberto Campos",
+          "comment": "Revolucionário para sua época.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "O Silmarillion",
+      "author": "J.R.R. Tolkien",
+      "description": "A mitologia por trás do mundo de O Senhor dos Anéis, contando a criação de Arda e as primeiras eras da Terra-média.",
+      "genre": "Fantasia",
+      "rating": 4.4,
+      "publishedYear": 1977,
+      "coverImage": "https://m.media-amazon.com/images/I/81MoknVer8L.jpg",
+      "pages": 365,
+      "language": "Português",
+      "price": 62.00,
+      "reviews": [
+        {
+          "user": "Gabriel Monteiro",
+          "comment": "Para os verdadeiros fãs da Terra Média.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "O Psicopata Americano",
+      "author": "Bret Easton Ellis",
+      "description": "A perturbadora história de Patrick Bateman, um executivo de Wall Street com uma vida dupla como serial killer.",
+      "genre": "Thriller Psicológico",
+      "rating": 4.3,
+      "publishedYear": 1991,
+      "coverImage": "https://m.media-amazon.com/images/I/61OPHhrOv5L._AC_UF1000,1000_QL80_.jpg",
+      "pages": 399,
+      "language": "Português",
+      "price": 54.90,
+      "reviews": [
+        {
+          "user": "Daniela Rocha",
+          "comment": "Chocante e inesquecível.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "As Crônicas de Nárnia",
+      "author": "C.S. Lewis",
+      "description": "Aventuras mágicas no reino de Nárnia, onde crianças descobrem um mundo de criaturas fantásticas e batalhas épicas.",
+      "genre": "Fantasia",
+      "rating": 4.7,
+      "publishedYear": 1950,
+      "coverImage": "https://m.media-amazon.com/images/I/71yJLhQekBL._AC_UF1000,1000_QL80_.jpg",
+      "pages": 767,
+      "language": "Português",
+      "price": 65.00,
+      "reviews": [
+        {
+          "user": "Marina Silva",
+          "comment": "Encantador para todas as idades.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "O Senhor das Moscas",
+      "author": "William Golding",
+      "description": "Sobre a natureza humana quando um grupo de crianças fica isolado em uma ilha deserta.",
+      "genre": "Allegoria",
+      "rating": 4.2,
+      "publishedYear": 1954,
+      "coverImage": "https://m.media-amazon.com/images/I/A1bFiBBPWFS._AC_UF1000,1000_QL80_.jpg",
+      "pages": 224,
+      "language": "Português",
+      "price": 39.90,
+      "reviews": [
+        {
+          "user": "Felipe Costa",
+          "comment": "Uma reflexão perturbadora sobre a sociedade.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "A Metamorfose",
+      "author": "Franz Kafka",
+      "description": "Gregor Samsa acorda transformado em um inseto, numa alegoria sobre alienação e condição humana.",
+      "genre": "Literatura Absurdista",
+      "rating": 4.4,
+      "publishedYear": 1915,
+      "coverImage": "https://m.media-amazon.com/images/I/71QLwli7GUL.jpg",
+      "pages": 96,
+      "language": "Português",
+      "price": 29.90,
+      "reviews": [
+        {
+          "user": "Renata Oliveira",
+          "comment": "Uma obra-prima do existencialismo.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Orgulho e Preconceito",
+      "author": "Jane Austen",
+      "description": "Clássico romance sobre Elizabeth Bennet e Mr. Darcy, explorando temas de classe social e moral na Inglaterra rural.",
+      "genre": "Romance",
+      "rating": 4.5,
+      "publishedYear": 1813,
+      "coverImage": "https://m.media-amazon.com/images/I/719esIW3D7L._AC_UF1000,1000_QL80_.jpg",
+      "pages": 424,
+      "language": "Português",
+      "price": 39.90,
+      "reviews": [
+        {
+          "user": "Camila Fernandes",
+          "comment": "Um dos melhores romances já escritos.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "1984",
+      "author": "George Orwell",
+      "description": "Um clássico distópico sobre vigilância e controle...",
+      "genre": "Distopia",
+      "rating": 4.6,
+      "publishedYear": 1949,
+      "coverImage": "https://m.media-amazon.com/images/I/61t0bwt1s3L._AC_UF1000,1000_QL80_.jpg",
+      "pages": 328,
+      "language": "Português",
+      "price": 45.50,
+      "reviews": [
+        {
+          "user": "Maria Souza",
+          "comment": "Assustadoramente atual.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "A Paciente Silenciosa",
+      "author": "Alex Michaelides",
+      "description": "Um thriller psicológico sobre uma mulher que atira no marido e depois se recusa a falar, e o terapeuta obcecado em descobrir a verdade.",
+      "genre": "Thriller Psicológico",
+      "rating": 4.6,
+      "publishedYear": 2019,
+      "coverImage": "https://m.media-amazon.com/images/I/91R8S52UP6L.jpg",
+      "pages": 352,
+      "language": "Português",
+      "price": 44.90,
+      "reviews": [
+        {
+          "user": "Carolina Mendes",
+          "comment": "Um final que vai te deixar de queixo caído!",
+          "rating": 5
+        },
+        {
+          "user": "Marcos Vinicius",
+          "comment": "Um dos melhores thrillers que já li nos últimos anos.",
           "rating": 5
         }
       ]
