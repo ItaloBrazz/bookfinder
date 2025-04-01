@@ -21,7 +21,7 @@ Aplicação web para explorar um catálogo de livros com filtros avançados.
 4. Acesse `http://localhost:5173`
 
 ## Link de Produção
-https://bookfinder-app.vercel.app
+https://bookfinder-gilt.vercel.app/
 
 ## Autor
 Ítalo Braz
